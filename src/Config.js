@@ -231,7 +231,7 @@ class Config extends StateBase {
     };
 
     defaultMapnikVersion() {
-        var version = semver(mapnik.versions.mapnik);
+        var version = new semver.SemVer(mapnik.versions.mapnik);        
         return version.format();
     };
 }
