@@ -31,6 +31,7 @@
     "carto": "^1.2.0",
     "mapnik-pool": "^0.1.3",
     "leaflet": "^1.9.4",
+    "leaflet-formbuilder": "^0.2.10",
     "nomnom": "^1.8.1",
     "request": "^2.88.2",
     "semver": "^7.7.2"
